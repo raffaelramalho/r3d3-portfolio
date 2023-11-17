@@ -10,7 +10,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} py-8 relative bg-[#ffff]`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div
@@ -21,9 +21,7 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        R3D3 Desenvolvimentos
-      </h2>
+      <img src="/R3D3_cheia.png" alt="logo" className="w-[170px] h-[40px] object-contain" />
       <img
         src="/menu.svg"
         alt="menu"
