@@ -19,8 +19,7 @@ const World = () => (
       <TypingText title="| People on the World" textStyles="text-center" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>Deixe o mundo conhecer a sua marca!
           </>
         )}
         textStyles="text-center"
@@ -32,7 +31,7 @@ const World = () => (
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
 
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+        <div className="absolute bottom-20 right-10 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />
         </div>
 

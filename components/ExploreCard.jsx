@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, description }) => (
+const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, description, icon }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -28,8 +28,8 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, descriptio
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
-            src="/headset.svg"
-            alt="headset"
+            src={icon}
+            alt={icon}
             className="w-1/2 h-1/2 object-contain"
           />
         </div>

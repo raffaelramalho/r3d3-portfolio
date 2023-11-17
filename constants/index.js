@@ -2,6 +2,7 @@ export const exploreServices = [
   {
     id: 'service-1',
     imgUrl: '/planet-01.png',
+    iconUrl: '/product.svg',
     title: 'Elvis -Agenda para Barbeiros',
     description:'O melhor jeito de você barbeiro gerenciar sua clientela e ter horários marcados 24 horas por dia'
   },
@@ -9,25 +10,30 @@ export const exploreServices = [
     id: 'service-2',
     imgUrl: '/planet-02.png',
     title: 'Emperor [Em breve]',
+    iconUrl: '/ai-svg.svg',
   },
   {
     id: 'service-3',
     imgUrl: '/planet-03.png',
     title: 'Site Personalizado',
-    description:'Faça hoje mesmo um orçamento conosco! Preços acessíveis e entregas no menor prazo do mercado.'
+    description:'Faça hoje mesmo um orçamento conosco! Preços acessíveis e entregas no menor prazo do mercado.',
+    iconUrl: '/touch.svg',
   },
   {
     id: 'service-4',
     imgUrl: '/planet-04.png',
+    iconUrl: '/touch.svg',
     title: 'Criação de Identidade Visual',
     description:'Uma empresa é reconhecida por sua identidade visual, quanto melhor for sua construção, mais reconhecível e marcante ela sera!.'
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Alcance Global: Expandir seu mercado para além das fronteiras físicas.',
+  'Visibilidade Aumentada: Mais pessoas conhecendo seus produtos ou serviços online.',
+  'Facilidade de Transações: Comércio eletrônico para transações convenientes.',
+ 'Análise de Dados: Insights valiosos sobre o comportamento do cliente.',
+  'Competitividade: Essencial para se destacar no cenário atual de negócios.'
 ];
 
 export const newFeatures = [
@@ -47,23 +53,12 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/fantasma_post.png',
+    title: 'Os fantasmas da tecnologia',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
+        'Saiba como grandes empresas históricas vieram a falência por não saberem como lidar com a evolução da tecnologia',
+    link: 'https://www.instagram.com/p/CzUcVCsglQv/?igshid=MzRlODBiNWFlZA==',
+      },
 ];
 
 export const socials = [
