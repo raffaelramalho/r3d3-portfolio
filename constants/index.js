@@ -1,28 +1,26 @@
-export const exploreWorlds = [
+export const exploreServices = [
   {
-    id: 'world-1',
+    id: 'service-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Elvis -Agenda para Barbeiros',
+    description:'O melhor jeito de você barbeiro gerenciar sua clientela e ter horários marcados 24 horas por dia'
   },
   {
-    id: 'world-2',
+    id: 'service-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Emperor [Em breve]',
   },
   {
-    id: 'world-3',
+    id: 'service-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Site Personalizado',
+    description:'Faça hoje mesmo um orçamento conosco! Preços acessíveis e entregas no menor prazo do mercado.'
   },
   {
-    id: 'world-4',
+    id: 'service-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Criação de Identidade Visual',
+    description:'Uma empresa é reconhecida por sua identidade visual, quanto melhor for sua construção, mais reconhecível e marcante ela sera!.'
   },
 ];
 
@@ -72,17 +70,16 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    href:'https://www.linkedin.com/company/r3d3-desenvolvimentos',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    href:'https://www.linkedin.com/company/r3d3-desenvolvimentos',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    href:'https://www.linkedin.com/company/r3d3-desenvolvimentos',
   },
 ];

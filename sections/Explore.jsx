@@ -4,12 +4,12 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { exploreWorlds } from '../constants';
+import { exploreServices } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
-  const [active, setActive] = useState('world-2');
+  const [active, setActive] = useState('service-3');
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -20,16 +20,16 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| Serviços" textStyles="text-center" />
         <TitleText
-          title={<>Choose the world you want <br className="md:block hidden" /> to explore</>}
+          title={<>Quer levar seu negócio para o  <br className="md:block hidden" /> próximo patamar?</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
+          {exploreServices.map((service, index) => (
             <ExploreCard
-              key={world.id}
-              {...world}
+              key={service.id}
+              {...service}
               index={index}
               active={active}
               handleClick={setActive}

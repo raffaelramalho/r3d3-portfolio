@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, description }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -33,12 +33,13 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-          Enter Metaverse
-        </p>
+        
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
+        <p className="font-normal text-[16px] leading-[20.16px] text-white ">
+          {description}
+        </p>
       </div>
     )}
   </motion.div>
