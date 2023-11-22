@@ -20,9 +20,9 @@ const Footer = () => (
           Sua empresa, no digital
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#33889E] rounded-[32px] gap-[12px]">
-          <span className="font-normal text-[16px] text-white">
+          <a className="font-normal text-[16px] text-white" href="https://wa.me/5531998979462">
             Faça seu orçamento
-          </span>
+          </a>
         </button>
       </div>
 
@@ -34,21 +34,19 @@ const Footer = () => (
             R3D3
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 <a className='text-blue' href='https://www.r3d3s.com.br'>R3D3</a>. Todos os direitos reservados.
+            Copyright © 2023 <a className="text-blue" href="https://www.r3d3s.com.br">R3D3</a>. Todos os direitos reservados.
           </p>
 
           <div className="flex gap-4">
             {socials.map((social) => (
               <a href={social.href}>
                 <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-                
-              />
-              </a>
-              
+                  key={social.name}
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer" 
+                />
+              </a> 
             ))}
           </div>
         </div>

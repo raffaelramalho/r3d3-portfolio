@@ -3,13 +3,13 @@ export const exploreServices = [
     id: 'service-1',
     imgUrl: '/planet-01.png',
     iconUrl: '/product.svg',
-    title: 'Elvis -Agenda para Barbeiros',
+    title: 'Agenda Virtual [Em breve]',
     description:'O melhor jeito de você barbeiro gerenciar sua clientela e ter horários marcados 24 horas por dia'
   },
   {
     id: 'service-2',
     imgUrl: '/planet-02.png',
-    title: 'Emperor [Em breve]',
+    title: 'Criador de Sites IA [Em breve]',
     iconUrl: '/ai-svg.svg',
   },
   {
@@ -56,9 +56,16 @@ export const insights = [
     imgUrl: '/fantasma_post.png',
     title: 'Os fantasmas da tecnologia',
     subtitle:
-        'Saiba como grandes empresas históricas vieram a falência por não saberem como lidar com a evolução da tecnologia',
+        'Saiba como grandes empresas históricas vieram a falência por não saberem como lidar com a evolução da tecnologia...',
     link: 'https://www.instagram.com/p/CzUcVCsglQv/?igshid=MzRlODBiNWFlZA==',
       },
+  {
+        imgUrl: '/R3D3_cheia.PNG',
+        title: 'Transformando Negócios para o futuro',
+        subtitle:
+            'Em um mundo de constante evolução, a velocidade é essencial, mas nunca as custas da qualidade...',
+        link: 'https://www.instagram.com/reel/Cze8qFOAGWa/',
+    },
 ];
 
 export const socials = [

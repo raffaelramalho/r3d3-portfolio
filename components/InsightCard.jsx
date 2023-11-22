@@ -23,7 +23,6 @@ const InsightCard = ({ imgUrl, title, subtitle, index, link }) => (
           {subtitle}
         </p>
       </div>
-
       <div
         className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white"
       > <a href={link}>
@@ -32,8 +31,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index, link }) => (
           alt="arrow"
           className="w-[60%] h-[60%] object-contain"
         />
-      </a>
-        
+          </a>
       </div>
     </div>
   </motion.div>
