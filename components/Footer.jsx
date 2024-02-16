@@ -34,7 +34,7 @@ const Footer = () => (
             R3D3
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 <a className="text-blue" href="https://www.r3d3s.com.br">R3D3</a>. Todos os direitos reservados.
+            Copyright © 2024 <a className="text-blue" href="https://www.r3d3s.com.br">R3D3</a>. Todos os direitos reservados.
           </p>
 
           <div className="flex gap-4">

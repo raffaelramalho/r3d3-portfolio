@@ -16,7 +16,7 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Pessoas pelo mundo" textStyles="text-center" />
       <TitleText
         title={(
           <>Deixe o mundo conhecer a sua marca!

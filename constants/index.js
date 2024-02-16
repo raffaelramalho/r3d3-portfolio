@@ -1,30 +1,30 @@
 export const exploreServices = [
   {
     id: 'service-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/1.png',
     iconUrl: '/product.svg',
-    title: 'Agenda Virtual [Em breve]',
-    description:'O melhor jeito de você barbeiro gerenciar sua clientela e ter horários marcados 24 horas por dia'
+    title: 'Desenvolvimento de Sites',
+    description:''
   },
   {
     id: 'service-2',
-    imgUrl: '/planet-02.png',
-    title: 'Criador de Sites IA [Em breve]',
+    imgUrl: '/2.png',
+    title: 'Social Media',
     iconUrl: '/ai-svg.svg',
   },
   {
     id: 'service-3',
-    imgUrl: '/planet-03.png',
-    title: 'Site Personalizado',
-    description:'Faça hoje mesmo um orçamento conosco! Preços acessíveis e entregas no menor prazo do mercado.',
+    imgUrl: '/3.png',
+    title: 'Elvis Barber System',
+    description:'[EM BREVE]',
     iconUrl: '/touch.svg',
   },
   {
     id: 'service-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/4.png',
     iconUrl: '/touch.svg',
-    title: 'Criação de Identidade Visual',
-    description:'Uma empresa é reconhecida por sua identidade visual, quanto melhor for sua construção, mais reconhecível e marcante ela sera!.'
+    title: 'Consultoria',
+    description:'Para automações e otimizações.'
   },
 ];
 
@@ -60,7 +60,7 @@ export const insights = [
     link: 'https://www.instagram.com/p/CzUcVCsglQv/?igshid=MzRlODBiNWFlZA==',
       },
   {
-        imgUrl: '/R3D3_cheia.PNG',
+        imgUrl: '/R3D3_plano.png',
         title: 'Transformando Negócios para o futuro',
         subtitle:
             'Em um mundo de constante evolução, a velocidade é essencial, mas nunca as custas da qualidade...',

@@ -20,16 +20,16 @@ const Feedback = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Geraldo Granja
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[37.32px] leading-[36.32px] text-white">
+            Máximo & Custódio Advocacia
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Terapeuta e Acupunturista
+            Escritório de advocacia
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “Fui atendido de maneira extremamente cordial, Os garotos
+          “Ótimo atendimento! Os garotos
           foram extremamente atenciosos e precisos quanto as necessidades
           do meu estabelecimento.”
         </p>
@@ -40,9 +40,9 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
-          alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          src="/maximo.png"
+          alt="logo-angelo-maximo"
+          className="w-full lg:h-[610px] h-auto min-h-[210px] object rounded-[40px]"
         />
 
         <motion.div
